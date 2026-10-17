@@ -105,6 +105,9 @@ checkpoint files, target weights, private production/overlay code, private kerne
 cloud generation orchestration, credentials, and raw datasets are not bundled.
 Obtain third-party artifacts from their authors and follow their licenses.
 
-Proposed preview head: `ProCreations/Qwen3.8-Flash-Next-DSpine-preview`.
+Preview head: [ProCreations/Qwen3.8-Flash-Next-DSpine-preview](https://huggingface.co/ProCreations/Qwen3.8-Flash-Next-DSpine-preview)
+(Qwen Community License 1.0, because it embeds a projection of the base LM head).
+Generated data: [ProCreations/Qwen3.8-Flash-Next-DSpine-generations](https://huggingface.co/datasets/ProCreations/Qwen3.8-Flash-Next-DSpine-generations)
+(per-source prompt licenses).
 Base model: [RedHatAI/Qwen3.8-Flash-Next-NVFP4](https://huggingface.co/RedHatAI/Qwen3.8-Flash-Next-NVFP4).
 Final checkpoint metrics are recorded in [findings](docs/findings.md).
