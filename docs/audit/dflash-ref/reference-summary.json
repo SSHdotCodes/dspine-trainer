@@ -1,0 +1,360 @@
+{
+  "dev-kd8-mtp": {
+    "source": "/tmp/dflash-ref/evaluation/dev-kd8-mtp/measurements.jsonl",
+    "all": {
+      "requests": 24,
+      "rounds": 6048,
+      "accepted_draft_count_histogram": [
+        1433,
+        1104,
+        849,
+        2662
+      ],
+      "survival_P_N_ge_j": [
+        0.7630621693121693,
+        0.5805224867724867,
+        0.4401455026455027
+      ],
+      "conditional_P_N_ge_j_given_N_ge_j_minus_1": [
+        0.7630621693121693,
+        0.7607800650054172,
+        0.7581885502705782
+      ],
+      "pooled_tau_1_plus_accepted_per_round": 2.783730158730159,
+      "request_mean_reported_tau": 2.847254976174302,
+      "request_mean_depth1": 0.7870378512046599
+    },
+    "by_domain": {
+      "code": {
+        "requests": 8,
+        "rounds": 2479,
+        "accepted_draft_count_histogram": [
+          422,
+          381,
+          300,
+          1376
+        ],
+        "survival_P_N_ge_j": [
+          0.8297700685760387,
+          0.6760790641387656,
+          0.5550625252117789
+        ],
+        "conditional_P_N_ge_j_given_N_ge_j_minus_1": [
+          0.8297700685760387,
+          0.8147788040836169,
+          0.8210023866348448
+        ],
+        "pooled_tau_1_plus_accepted_per_round": 3.0609116579265834,
+        "request_mean_reported_tau": 3.0723841994772836,
+        "request_mean_depth1": 0.8319646562395264
+      },
+      "general": {
+        "requests": 8,
+        "rounds": 2494,
+        "accepted_draft_count_histogram": [
+          771,
+          540,
+          384,
+          799
+        ],
+        "survival_P_N_ge_j": [
+          0.6908580593424218,
+          0.4743384121892542,
+          0.3203688853247795
+        ],
+        "conditional_P_N_ge_j_given_N_ge_j_minus_1": [
+          0.6908580593424218,
+          0.6865931514799768,
+          0.6754015215553677
+        ],
+        "pooled_tau_1_plus_accepted_per_round": 2.4855653568564557,
+        "request_mean_reported_tau": 2.5147056662846006,
+        "request_mean_depth1": 0.711458637421465
+      },
+      "tools": {
+        "requests": 8,
+        "rounds": 1075,
+        "accepted_draft_count_histogram": [
+          240,
+          183,
+          165,
+          487
+        ],
+        "survival_P_N_ge_j": [
+          0.7767441860465116,
+          0.6065116279069768,
+          0.4530232558139535
+        ],
+        "conditional_P_N_ge_j_given_N_ge_j_minus_1": [
+          0.7767441860465116,
+          0.7808383233532934,
+          0.7469325153374233
+        ],
+        "pooled_tau_1_plus_accepted_per_round": 2.836279069767442,
+        "request_mean_reported_tau": 2.9546750627610217,
+        "request_mean_depth1": 0.8176902599529883
+      }
+    },
+    "by_effort": {
+      "low": {
+        "requests": 12,
+        "rounds": 2826,
+        "accepted_draft_count_histogram": [
+          475,
+          407,
+          393,
+          1551
+        ],
+        "survival_P_N_ge_j": [
+          0.8319179051663128,
+          0.6878980891719745,
+          0.5488322717622081
+        ],
+        "conditional_P_N_ge_j_given_N_ge_j_minus_1": [
+          0.8319179051663128,
+          0.8268821777966823,
+          0.7978395061728395
+        ],
+        "pooled_tau_1_plus_accepted_per_round": 3.0686482661004955,
+        "request_mean_reported_tau": 3.0332004409777436,
+        "request_mean_depth1": 0.829979687004784
+      },
+      "xhigh": {
+        "requests": 12,
+        "rounds": 3222,
+        "accepted_draft_count_histogram": [
+          958,
+          697,
+          456,
+          1111
+        ],
+        "survival_P_N_ge_j": [
+          0.7026691495965239,
+          0.4863438857852266,
+          0.34481688392302917
+        ],
+        "conditional_P_N_ge_j_given_N_ge_j_minus_1": [
+          0.7026691495965239,
+          0.6921378091872792,
+          0.7089980855137205
+        ],
+        "pooled_tau_1_plus_accepted_per_round": 2.5338299193047797,
+        "request_mean_reported_tau": 2.6613095113708605,
+        "request_mean_depth1": 0.7440960154045358
+      }
+    }
+  },
+  "dev-calib-b6-k32-m1.6-dflash": {
+    "source": "/tmp/dflash-ref/evaluation/dev-calib-b6-k32-m1.6-dflash/measurements.jsonl",
+    "all": {
+      "requests": 24,
+      "rounds": 6353,
+      "accepted_draft_count_histogram": [
+        2288,
+        1457,
+        913,
+        571,
+        404,
+        720
+      ],
+      "survival_P_N_ge_j": [
+        0.6398551865260507,
+        0.41051471745631984,
+        0.26680308515661894,
+        0.1769242877380765,
+        0.11333228396033371
+      ],
+      "conditional_P_N_ge_j_given_N_ge_j_minus_1": [
+        0.6398551865260507,
+        0.6415744157441574,
+        0.6499233128834356,
+        0.6631268436578172,
+        0.6405693950177936
+      ],
+      "pooled_tau_1_plus_accepted_per_round": 2.6074295608373994,
+      "request_mean_reported_tau": 2.893465470840159,
+      "request_mean_depth1": 0.6957297446169268
+    },
+    "by_domain": {
+      "code": {
+        "requests": 8,
+        "rounds": 2304,
+        "accepted_draft_count_histogram": [
+          554,
+          464,
+          346,
+          251,
+          203,
+          486
+        ],
+        "survival_P_N_ge_j": [
+          0.7595486111111112,
+          0.5581597222222222,
+          0.4079861111111111,
+          0.2990451388888889,
+          0.2109375
+        ],
+        "conditional_P_N_ge_j_given_N_ge_j_minus_1": [
+          0.7595486111111112,
+          0.7348571428571429,
+          0.7309486780715396,
+          0.7329787234042553,
+          0.7053701015965167
+        ],
+        "pooled_tau_1_plus_accepted_per_round": 3.2356770833333335,
+        "request_mean_reported_tau": 3.4101698960431155,
+        "request_mean_depth1": 0.780510430999988
+      },
+      "general": {
+        "requests": 8,
+        "rounds": 2846,
+        "accepted_draft_count_histogram": [
+          1336,
+          678,
+          375,
+          197,
+          136,
+          124
+        ],
+        "survival_P_N_ge_j": [
+          0.5305692199578356,
+          0.29234012649332397,
+          0.16057624736472242,
+          0.09135628952916373,
+          0.04356992269852424
+        ],
+        "conditional_P_N_ge_j_given_N_ge_j_minus_1": [
+          0.5305692199578356,
+          0.5509933774834437,
+          0.5492788461538461,
+          0.5689277899343544,
+          0.47692307692307695
+        ],
+        "pooled_tau_1_plus_accepted_per_round": 2.1184118060435697,
+        "request_mean_reported_tau": 2.181558168947623,
+        "request_mean_depth1": 0.5515528620864851
+      },
+      "tools": {
+        "requests": 8,
+        "rounds": 1203,
+        "accepted_draft_count_histogram": [
+          398,
+          315,
+          192,
+          123,
+          65,
+          110
+        ],
+        "survival_P_N_ge_j": [
+          0.6691604322527016,
+          0.40731504571903576,
+          0.24771404821280132,
+          0.14546965918536992,
+          0.0914380714879468
+        ],
+        "conditional_P_N_ge_j_given_N_ge_j_minus_1": [
+          0.6691604322527016,
+          0.6086956521739131,
+          0.6081632653061224,
+          0.587248322147651,
+          0.6285714285714286
+        ],
+        "pooled_tau_1_plus_accepted_per_round": 2.561097256857855,
+        "request_mean_reported_tau": 3.088668347529738,
+        "request_mean_depth1": 0.7551259407643072
+      }
+    },
+    "by_effort": {
+      "low": {
+        "requests": 12,
+        "rounds": 3069,
+        "accepted_draft_count_histogram": [
+          919,
+          644,
+          490,
+          297,
+          239,
+          480
+        ],
+        "survival_P_N_ge_j": [
+          0.7005539263603779,
+          0.49071358748778104,
+          0.33105246008471817,
+          0.23427826653633105,
+          0.15640273704789834
+        ],
+        "conditional_P_N_ge_j_given_N_ge_j_minus_1": [
+          0.7005539263603779,
+          0.7004651162790698,
+          0.6746347941567065,
+          0.7076771653543307,
+          0.6675938803894298
+        ],
+        "pooled_tau_1_plus_accepted_per_round": 2.9130009775171066,
+        "request_mean_reported_tau": 3.0690604201643175,
+        "request_mean_depth1": 0.7308960172157457
+      },
+      "xhigh": {
+        "requests": 12,
+        "rounds": 3284,
+        "accepted_draft_count_histogram": [
+          1369,
+          813,
+          423,
+          274,
+          165,
+          240
+        ],
+        "survival_P_N_ge_j": [
+          0.583130328867235,
+          0.33556638246041415,
+          0.20676004872107187,
+          0.1233252131546894,
+          0.0730816077953715
+        ],
+        "conditional_P_N_ge_j_given_N_ge_j_minus_1": [
+          0.583130328867235,
+          0.5754569190600523,
+          0.6161524500907442,
+          0.5964653902798233,
+          0.5925925925925926
+        ],
+        "pooled_tau_1_plus_accepted_per_round": 2.321863580998782,
+        "request_mean_reported_tau": 2.717870521516,
+        "request_mean_depth1": 0.6605634720181078
+      }
+    }
+  },
+  "position_weight_budget": {
+    "2": {
+      "sum": 1.0,
+      "position1_share": 1.0,
+      "positions1_3_share": 1.0,
+      "positions6plus_share": 0.0
+    },
+    "4": {
+      "sum": 2.618355192825468,
+      "position1_share": 0.3819191539559229,
+      "positions1_3_share": 1.0,
+      "positions6plus_share": 0.0
+    },
+    "6": {
+      "sum": 3.8345123723642827,
+      "position1_share": 0.26078935282804167,
+      "positions1_3_share": 0.682839156210896,
+      "positions6plus_share": 0.0
+    },
+    "8": {
+      "sum": 4.7484268775981855,
+      "position1_share": 0.210596061764736,
+      "positions1_3_share": 0.5514152919102895,
+      "positions6plus_share": 0.1924667955919272
+    },
+    "16": {
+      "sum": 6.630610787009076,
+      "position1_share": 0.15081566874038738,
+      "positions1_3_share": 0.3948889894058389,
+      "positions6plus_share": 0.4216954522685914
+    }
+  }
+}

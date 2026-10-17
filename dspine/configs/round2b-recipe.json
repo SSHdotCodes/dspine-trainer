@@ -1,0 +1,9 @@
+{
+  "base_recipe": "B",
+  "reference_arm": "lr_vlow",
+  "arms": {
+    "lr_vlow": {"lr": 0.00015},
+    "accum4_lr3": {"gradient_accumulation": 16, "lr": 0.0003},
+    "accum4_lr6": {"gradient_accumulation": 16}
+  }
+}

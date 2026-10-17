@@ -1,0 +1,10 @@
+{
+  "base_recipe": "C",
+  "reference_arm": "control",
+  "arms": {
+    "control": {},
+    "noaux": {"embedding_loss_scale": 0.0},
+    "noaux_ce": {"embedding_loss_scale": 0.0, "loss_alpha": 1.0},
+    "noaux_g2": {"embedding_loss_scale": 0.0, "loss_gamma": 2.0}
+  }
+}

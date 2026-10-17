@@ -1,0 +1,7 @@
+{
+  "base_recipe": "C",
+  "reference_arm": "lr3",
+  "arms": {
+    "lr3": {"lr": 0.0003}
+  }
+}

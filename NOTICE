@@ -1,0 +1,23 @@
+DSpine Trainer
+Copyright 2026 SSHdotCodes
+
+This independent research implementation follows the DSpine method described in:
+DSpine, Zhang et al. (2026), arXiv:2609.36173.
+https://arxiv.org/abs/2609.36173
+The paper text and Tencent checkpoint files are not redistributed here.
+Reference checkpoint: https://huggingface.co/tencent/Qwen3-8B-DSpine-b16
+
+DFlash provides the context-K/V parallel-drafting architecture on which DSpine
+builds. We credit the DFlash authors and public implementation:
+https://github.com/z-lab/dflash
+Historical DFlash comparisons in the audit are this project's measurements;
+the private runtime and historical third-party source are not distributed.
+
+Qwen provides the target model family and transformer conventions.
+https://github.com/QwenLM/Qwen3
+Preview base model: RedHatAI/Qwen3.8-Flash-Next-NVFP4.
+https://huggingface.co/RedHatAI/Qwen3.8-Flash-Next-NVFP4
+No target weights are included in this code release.
+
+These credits do not imply endorsement by Tencent, the DFlash authors, Qwen,
+or Red Hat. Third-party artifacts remain subject to their respective licenses.

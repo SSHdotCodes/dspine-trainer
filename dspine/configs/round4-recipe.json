@@ -1,0 +1,9 @@
+{
+  "base_recipe": "C",
+  "reference_arm": "control",
+  "arms": {
+    "control": {},
+    "fusion": {"context_fusion": "anchor"},
+    "fusion_p1": {"context_fusion": "anchor", "pos1_weight": 3.0}
+  }
+}

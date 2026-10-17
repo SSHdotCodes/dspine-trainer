@@ -1,0 +1,159 @@
+{
+  "label": "preview-9145",
+  "checkpoint": "recipe-r2c/lr3/best-step-00009145",
+  "kind": "dspine",
+  "complete": true,
+  "skipped": [],
+  "load_seconds": 5.746964729012689,
+  "proposal_vocab_size": 189090,
+  "sequences": {
+    "T1": 64,
+    "T0": 64
+  },
+  "heldout_rounds_T1": {
+    "6": {
+      "tau_mean": 1.799928356308724,
+      "tau_pooled": 1.7999280748022057,
+      "per_trial": [
+        1.8014388489208633,
+        1.7987541926209871,
+        1.8,
+        1.7995203836930456
+      ],
+      "mc_se": 0.0005650699604302645,
+      "prompt_se": 0.04259570647228564,
+      "rounds_per_trial": 2085.5,
+      "censored_tails": 252,
+      "by_domain": {
+        "agentic": 1.9070480081716037,
+        "chat": 1.6193293885601578,
+        "code": 2.208835341365462,
+        "longctx": 1.68692070030896,
+        "math": 2.5,
+        "multilingual": 1.5129151291512914,
+        "stem": 1.7697297297297296,
+        "structured": 1.8103070175438596,
+        "writing": 1.561904761904762
+      }
+    },
+    "8": {
+      "tau_mean": 1.823053377217508,
+      "tau_pooled": 1.8230110775427997,
+      "per_trial": [
+        1.833839918946302,
+        1.8154463390170512,
+        1.813720580871307,
+        1.8292066700353713
+      ],
+      "mc_se": 0.004993160720914602,
+      "prompt_se": 0.04443169878942935,
+      "rounds_per_trial": 1986.0,
+      "censored_tails": 252,
+      "by_domain": {
+        "agentic": 1.9522776572668112,
+        "chat": 1.6393782383419688,
+        "code": 2.228932584269663,
+        "longctx": 1.7228915662650603,
+        "math": 2.5764331210191083,
+        "multilingual": 1.501432664756447,
+        "stem": 1.8075170842824602,
+        "structured": 1.8162100456621004,
+        "writing": 1.5672981056829511
+      }
+    }
+  },
+  "heldout_rounds_T0": {
+    "6": {
+      "tau_mean": 1.8498276710979813,
+      "tau_pooled": 1.8498276710979813,
+      "per_trial": [
+        1.8498276710979813
+      ],
+      "mc_se": null,
+      "prompt_se": 0.04889050374933406,
+      "rounds_per_trial": 2031.0,
+      "censored_tails": 64,
+      "by_domain": {
+        "agentic": 1.9708333333333334,
+        "chat": 1.6748971193415638,
+        "code": 2.1614583333333335,
+        "longctx": 1.7142857142857142,
+        "math": 2.7905405405405403,
+        "multilingual": 1.4963235294117647,
+        "stem": 1.8114035087719298,
+        "structured": 1.8904109589041096,
+        "writing": 1.6215139442231075
+      }
+    },
+    "8": {
+      "tau_mean": 1.8676622039134911,
+      "tau_pooled": 1.8676622039134911,
+      "per_trial": [
+        1.8676622039134911
+      ],
+      "mc_se": null,
+      "prompt_se": 0.04968885873675745,
+      "rounds_per_trial": 1942.0,
+      "censored_tails": 64,
+      "by_domain": {
+        "agentic": 1.9653679653679654,
+        "chat": 1.6808510638297873,
+        "code": 2.197802197802198,
+        "longctx": 1.7336244541484715,
+        "math": 2.9124087591240877,
+        "multilingual": 1.5115384615384615,
+        "stem": 1.8110599078341014,
+        "structured": 1.9047619047619047,
+        "writing": 1.6431535269709543
+      }
+    }
+  },
+  "window_ablation": {
+    "4096": {
+      "backbone_overlap_t1..3": [
+        0.48550117015838623,
+        0.3427651822566986,
+        0.24325740337371826
+      ],
+      "proposal_accept_t1": 0.49840895064300267,
+      "fixed_anchors_T1": 3072,
+      "t0_greedy_pos1_accuracy": 0.5139973958333334,
+      "rounds_T1_b8_seed42": 1.816357250376317,
+      "rounds_T0_b8": 1.8676622039134911
+    }
+  },
+  "seconds": 662.2154650080192,
+  "dspine": "dspine",
+  "sources": {
+    "modeling.py": "83801bed6c57b2fe",
+    "eval_rounds.py": "49d4610c909ec438",
+    "eval_offline.py": "40295a08a7d391ba",
+    "data.py": "53c7230dded0fc2e",
+    "transfer_space.py": "4a6e4ec3a3a25b59",
+    "hot_vocab.py": "15fe97fc34f086b4"
+  },
+  "precision": "fp32",
+  "attention": "reference",
+  "argv": [
+    "score_checkpoint.py",
+    "--checkpoint",
+    "preview-9145=CHECKPOINT",
+    "--device",
+    "cpu",
+    "--precision",
+    "fp32",
+    "--windows",
+    "4096",
+    "--sequences",
+    "64",
+    "--trials",
+    "4"
+  ],
+  "release_scoring": {
+    "audited_scorer_sha256": "d3accdee415ef71202d26fd267df92b5d01fcccfaa740f634239ec3621db652b",
+    "cpu_wrapper_sha256": "2bfba47b1f49aeb228f7fcd3d8f9e3cea1d737a2020043c3b850a47ecb3270de",
+    "wrapper_changes": "T0 walk includes b6 as well as b8; progress logging; eight CPU threads; no target/scoring changes.",
+    "nice": 19,
+    "gpu_used": false
+  }
+}

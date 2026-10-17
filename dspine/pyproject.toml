@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dspine-reference"
+version = "0.1.0"
+description = "Config-driven DSpine draft head trainer and numerical reference"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.6", "numpy", "safetensors>=0.4", "zstandard"]
+
+[project.optional-dependencies]
+validation = ["transformers>=4.51", "datasets", "pytest", "scipy", "requests"]
+
+[tool.setuptools]
+packages = ["dspine"]
+package-dir = {dspine = "."}
+
+[tool.setuptools.package-data]
+dspine = ["configs/*.json", "scripts/*.py", "scripts/*.sh"]

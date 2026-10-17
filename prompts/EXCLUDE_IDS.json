@@ -1,0 +1,25 @@
+{
+  "ids": [
+    "30f3b3a3acd2bd783b9857cad02571d8fbfd45b8",
+    "cf1c0a6a6cfebade2c721126deb6a9d8ebfe41fb"
+  ],
+  "reason": "Benchmark 13-gram overlap in decoded tool argument values found by supplemental all-field audit.",
+  "action": "Never use these IDs in training, including any already generated outputs. Replacement prompts keep corpus size/domain mix unchanged.",
+  "fields": [
+    {
+      "kind": "arguments",
+      "benchmark": "livecodebench/code_generation_lite",
+      "field_hash": "9ad3fdb676df10c57a7ab849618116661baf2dd7"
+    },
+    {
+      "kind": "arguments",
+      "benchmark": "livecodebench/code_generation_lite",
+      "field_hash": "7fc30d406f7e744de2d8869fcada8cf06bb7ae99"
+    },
+    {
+      "kind": "arguments",
+      "benchmark": "livecodebench/code_generation_lite",
+      "field_hash": "f7301bcf79426e1e309597f6b43cf17c3dbb250e"
+    }
+  ]
+}

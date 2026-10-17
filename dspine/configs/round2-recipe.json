@@ -1,0 +1,11 @@
+{
+  "base_recipe": "C",
+  "reference_arm": "control",
+  "arms": {
+    "control": {},
+    "lr_low": {"lr": 0.0003},
+    "lr_high": {"lr": 0.0012},
+    "accum4": {"gradient_accumulation": 16},
+    "no_teacher": {"curriculum_p": 0.0}
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "protocol": {
+    "prompts": 100,
+    "dataset": "openai/gsm8k main test, first 100",
+    "target": "Qwen/Qwen3-8B",
+    "draft": "tencent/Qwen3-8B-DSpine-b16",
+    "target_dtype": "bfloat16",
+    "thinking": false,
+    "temperature": 0,
+    "block": 16,
+    "max_new_tokens": 512,
+    "feature_indexing": "post-layer [1,9,17,25,33], HF hidden_states[i+1]",
+    "counting": "uncensored full speculative rounds, accepted draft prefix plus bonus"
+  },
+  "results": {
+    "32.0": {
+      "tau": 9.856812933025404,
+      "tokens": 25608,
+      "rounds": 2598,
+      "prompt_mean_tau": 10.670342854561326,
+      "prompt_bootstrap_95pct": [
+        9.32635171768149,
+        10.409839501975027
+      ]
+    },
+    "10.0": {
+      "tau": 7.263865065751858,
+      "tokens": 25409,
+      "rounds": 3498,
+      "prompt_mean_tau": 7.92091213206062,
+      "prompt_bootstrap_95pct": [
+        6.8471359400415,
+        7.712131300647391
+      ]
+    },
+    "1.0": {
+      "tau": 3.040944881889764,
+      "tokens": 25103,
+      "rounds": 8255,
+      "prompt_mean_tau": 3.127920956612871,
+      "prompt_bootstrap_95pct": [
+        2.9679809548256166,
+        3.1181166107941976
+      ]
+    }
+  },
+  "cuda_tests": {
+    "passed": 2,
+    "seconds": 18.62
+  },
+  "settled_inference": {
+    "scale": 32,
+    "terminal_out": "exactly zero, terminal disabled; unsupported nonzero rejected",
+    "mask": "frozen target embedding row 151669",
+    "kappa": "10 is retained metadata, not a feature-scale override; no original-training interpretation claimed"
+  }
+}

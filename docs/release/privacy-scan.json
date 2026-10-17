@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "findings": [],
+  "checks": [
+    "private paths",
+    "host alias",
+    "tailnet domain",
+    "personal usernames",
+    "email addresses"
+  ]
+}

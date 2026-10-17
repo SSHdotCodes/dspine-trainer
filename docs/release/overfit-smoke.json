@@ -1,0 +1,11 @@
+{
+  "kind": "synthetic_cpu_overfit",
+  "steps": 250,
+  "initial_loss": 8.833789825439453,
+  "final_loss": 7.610254215251189e-06,
+  "greedy_proposal_accuracy": 1.0,
+  "shuffled_context_accuracy": 0.0,
+  "auxiliary_scale": 0.0,
+  "frozen_tables_unchanged": true,
+  "limitation": "Four synthetic examples; does not establish real-target convergence."
+}
